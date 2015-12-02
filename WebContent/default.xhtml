@@ -9,18 +9,18 @@
 	<title>Naturanime o site que é doido pacas</title>
 	<h:outputStylesheet library="css" name="app.css" />
 </h:head>
-<h:body styleClass="imagem-fundo">
+<h:body>
 
 	<!--  Header -->
 
 	<div class="ui-grid ui-grid-responsive">
-		<div class="ui-grid-row">
+		<div class="ui-grid-row imagem-fundo">
 			<div class="ui-grid-col-12">
-				<div class="header border-inset fundo-negro sombra-texto">
+				<p:panel styleClass="header border-inset fundo-negro sombra-texto">
 					<ui:insert name="header">
 						<ui:include src="/Views/Base/header.xhtml" />
 					</ui:insert>
-				</div>
+				</p:panel>
 			</div>
 		</div>
 

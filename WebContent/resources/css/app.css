@@ -33,16 +33,15 @@ body,html{
 	background-color: rgba( 0,33,33,0.8 );
 	color: rgb( 255,255,230 ) ;
 }
-.header .footer{
-	height: 25%;	
+.header{
+	min-height: 500px;		
 }
 
 .main{
 	height: 100%;
 	padding: 1.2em;
 }
-.footer{
-
+.footer{	
 }
 .bordas-arredondadas{
 	border-radius: 0px 0px 15px 15px;	
@@ -76,4 +75,13 @@ body,html{
 .black-hover:hover{
 	background-color: rgba(0,0,0,0.75);
 	color: white;
+}
+
+.white-text{
+	color: white;
+}
+
+
+.padding-grande{
+	padding: 10%;
 }
