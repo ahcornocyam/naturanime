@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Naturanime o site que é doido pacas</title>
+	<h:outputStylesheet library="css" name="app.css" />
+</h:head>
+<h:body styleClass="imagem-fundo">
+
+	<!--  Header -->
+
+	<div class="ui-grid ui-grid-responsive">
+		<div class="ui-grid-row">
+			<div class="ui-grid-col-12">
+				<div class="header border-inset fundo-negro sombra-texto">
+					<ui:insert name="header">
+						<ui:include src="/Views/Base/header.xhtml" />
+					</ui:insert>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+		
+		<div class="ui-grid ui-grid-responsive">
+			<div class="ui-grid-row">
+				<div class="ui-grid-col-12">
+					<div class="menu">
+						<ui:insert name="menu">
+							<ui:include src="/Views/Base/menu.xhtml" />
+						</ui:insert>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main -->
+
+		<div class="ui-grid ui-grid-responsive">
+			<div class="ui-grid-row">
+				<div class="ui-grid-col-12">
+					<div class="main white">
+						<ui:insert name="main">
+						</ui:insert>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<div class="ui-grid ui-grid-responsive">
+			<div class="ui-grid-row">
+				<div class="ui-grid-col-12">
+					<div class="footer fundo-negro border-inset">
+						<ui:insert name="footer">
+							<ui:include src="/Views/Base/footer.xhtml" />
+						</ui:insert>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h:outputScript library="js" name="app.js"/>
+</h:body>
+</html>
