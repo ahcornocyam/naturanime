@@ -13,6 +13,14 @@ body,html{
 	text-align: center;
 }
 
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
 .border-inset{
 	border: 5px inset;
 }
