@@ -12,20 +12,20 @@ public class InfoBean implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private Double versao;
+	private String versao;
 	
 	
 	@PostConstruct
 	public void inicalizar(){
 		
-		setVersao( 0.1 );
+		setVersao( "0.0.1" );
 	}
 
-	public Double getVersao() {
+	public String getVersao() {
 		return versao;
 	}
 
-	public void setVersao( Double versao ) {
+	public void setVersao( String versao ) {
 		this.versao = versao;
 	}
 
